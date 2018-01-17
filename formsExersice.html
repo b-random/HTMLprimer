@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dropdowns</title>
+</head>
+<body>
+  <p>Cats or dogs?</p>
+    <form>
+      <div>	
+      <label for="firstname">First Name: </label>
+      <input id="firstname" type="text" required>
+      <label for="lastname">Last Name: </label>
+      <input id="lastname" type="text" required>
+	  </dive>
+	  <div>
+	  <label for="male">Male: </label>	
+      <input name="gender" id="male" type="radio" required>
+      <label for="female">Female: </label>	
+      <input name="gender" id="female" type="radio" required>
+      <label for="other">Other: </label>	
+      <input name="gender" id="other" type="radio" required>
+	  </div>
+	  <div>
+	  <label for="username">Email: </label> 
+      <input id="username" name="email" type="email" placeholder="Email" required>
+      <label for="password">Password: </label>
+      <input id="password" name="password" placeholder="Password" type="password" pattern=".{4,9}" required></input>
+      </div>
+      <div>
+      	<label style="color:rgba(225, 0, 0, 1);" for="bday">Birthday: </label>
+        <select name="month">	
+          <option value="Jan">January</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+        </select>
+        <select name="day">	
+          <option value="1">1</option>
+          <option value="20">20</option>
+          <option value="31">31</option>
+        </select>
+        <select name="year">	
+          <option value="1980">1980</option>
+          <option value="1990">1990</option>
+          <option value="2000">2000</option>
+        </select>
+      </div> 
+      <div>
+      	<label>I agree to the terms & conditions:</label>
+      	<input type="checkbox" required>
+      </div>	
+      <div>
+      	<input type="submit">
+      </div>	
+	</form>
+	
+</body> 
+</html> 

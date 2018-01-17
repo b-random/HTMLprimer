@@ -1,0 +1,23 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	margin-left: 2%;
+	margin-right: 66%;
+	font-size: 23px;
+	
+
+}
+div {
+	border-bottom: 2px solid rgba(255,0,0, .2);
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 4%;
+}
+
+h4 span {font-style: italic;}
+

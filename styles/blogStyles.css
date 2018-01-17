@@ -1,0 +1,32 @@
+body {
+	font-family: 'Poppins', sans-serif; 
+	border: 20px solid lightgrey;
+	margin: 10px 10% 10px 10%;
+	font-size: 15px;
+}
+
+.title {
+	margin: 10px 0 30px 10px;
+	font-size: 2em;
+} 
+.date {
+	margin: 10px 10px 40px 0; 
+	color: rgba(25, 104, 153, .6);
+	letter-spacing: .6em;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 1em;
+}
+.break {
+	margin: 0 10px 20px 10px;
+	border-color: rgba(25, 104, 153, .1);
+}
+
+p {
+	margin: 10px 10px 30px 10px;
+}
+
+.paragraph1 {
+	border-left: .25em solid rgba(25, 104, 153, 1); 
+	padding-left: .33em;
+}

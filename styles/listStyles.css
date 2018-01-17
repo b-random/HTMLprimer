@@ -1,0 +1,18 @@
+body{color:red;}
+
+li a {color:red;} /*nested*/
+
+h4 + ul {border:1px solid yellow;}  /*same level, below*/
+
+li {border:1px solid rgba(0,0,0, .3);}
+
+a[href="http://www.facebook.com"]{
+	background: cornflowerblue;
+}
+
+a[h1]{color:red;}
+
+li[name=last]{color:orange;}
+
+div:nth-of-type(2){background: rgba(200, 0, 220, .3);}
+li:nth-of-type(2){background: rgba(200, 0, 0, .3);};

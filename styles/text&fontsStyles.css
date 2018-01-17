@@ -1,0 +1,10 @@
+p {font-family: 'Sedgwick Ave Display', cursive; border: 2px solid blue;}
+
+body {font-size: 10px;}
+
+h1 {font-size: 5.0em; border: 2px solid black; width: 500px; text-align: center; height: 30%; padding-top: 20px; margin: 0 auto;}
+
+p {font-size: 2em; font-weight: 300; margin: 100px 0;}
+span {font-size: 2em; text-decoration: line-through;}
+
+/*p:nth-of-type(2){margin: 100px 0px 200px 0;}*/
