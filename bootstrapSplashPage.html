@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <title>Bootstrap Navbars</title>
         <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <style type="text/css">
+          html {
+            height: 100%;
+          }
           body {
             background-image: url("img/petwiz.jpg");
             background-size: cover;
@@ -17,22 +22,77 @@
             color: gold;
           }
           h1 {
-            font-size: 3em;
+            font-size: 4em;
+            text-shadow: 5px 5px 5px #000;
+            font-family: 'Berkshire Swash', cursive;
+            font-weight: 800;
           }
           h3 {
             font-size: 2em;
+            text-shadow: 5px 5px 5px #000;
+            font-weight: 800;
+          }
+          button {
+            text-shadow: 1px  1px  1px #000;
+          }
+          .content1 {
+            margin-top: 10%;
+          }
+          .navbar-inverse .navbar-nav > li > a {
+            color: gold;
+          } 
+          .navbar-inverse .navbar-brand {
+            color: gold;
+            font-size: 1.5em;
+            font-family: 'Berkshire Swash', cursive;
+
+          }
+          .btn-lg {
+            font-family: 'Berkshire Swash', cursive;
+            background-color: #000;
+          }
+          hr {
+            width: 60%;
+            border-top: 2px solid gold;
+            border-bottom: 2px solid rgba(0, 0, 0, .5);
           }
         </style>
     </head>
     <body>
-       <div class="container">
+      <nav class="navbar navbar-inverse">
+        <div class="container"> <!--container goes inside the nav element and constricts the nav content, bu tnot the nav itself-->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse-demo" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Pet Sorcerers <i class="fa fa-paw" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-collapse-demo">
+            <ul class="nav navbar-nav">
+              <li
+              ><a href="#">Black Magic</a></li>
+              <li><a href="#">Resurrection</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">More <i class="fa fa-plus" aria-hidden="true"></i></a></li>
+              <li><a href="#">Sign-up <i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>  
+        </div>  
+      </nav>
+       <div class="container content1">
         <div class="row">
           <div class="col-lg-12">
             <div id="main-content">
-              <h1>Pet Sorcerers</h1>
+              <h1>Pet Sorcerers <i class="fa fa-paw" aria-hidden="true"></i></h1>
               <h3>Wizard training for pets and otherworldly companions</h3>
               <hr>
-              <button class="btn btn-lg button-default">  Expelliarmus!</button>
+              <button class="btn btn-lg button-default">Expelliarmus <i class="fa fa-exclamation" aria-hidden="true"></i>
+</button>
               </div>
           </div>
         </div>
